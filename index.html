@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Come Palavra</title>
+    <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+    <div class="app-container">
+        <div class="title-container">
+            <h1>
+                <span class="letter-yellow">C</span>
+                <span>O</span>
+                <span  class="letter-red">M</span>
+                <span>E</span>
+                <br>
+                <span class="letter-yellow">P</span>
+                <span>A</span>
+                <span class="letter-red">L</span>
+                <span>A</span>
+                <span class="letter-green">V</span>
+                <span class="letter-yellow">R</span>
+                <span class="letter-red">A</span>
+            </h1>
+
+        </div> 
+        <div class="tile-container"></div> 
+        <div class="keybord-container">
+            <div class="keyboard-row-container notAlphabetic" id="backspaceAndEnterRow"></div>
+            <div class="keyboard-row-container" id="keyboardFirstRow"></div>
+            <div class="keyboard-row-container" id="keyboardSecondRow"></div>
+            <div class="keyboard-row-container" id="keyboardThirdRow"></div>
+        </div>
+
+        <div class="btn-group">
+            <button type="button" class="btn btn-tutorial">Tutorial</button>
+            <button type="button" class="btn btn-creditos">Créditos</button>
+            <button id="refresh" class="refresh">Recomeçar</button>
+        </div>
+        
+
+    <script src="app.js"></script>
+    </div>
+
+    <div id="modal-tutorial" class="modal-container">
+        <div class="modal">
+            <button class="fechar">x</button>
+            <h1> Tutorial</h1>
+            <h3>Use o mouse ou o teclado para escrever a palavra tentando acertar sem nenhuma dica.</h3>
+            <br>
+            <h3>O objetivo do jogo é acertar a palavra somente com tentativas utilizando das letras que forem corretas.</h3>
+            <br>
+            <h3>Este jogo é feito baseado no principio da Palavra-cruzada onde você precisa acertar a palavra baseado na dica dada, mas
+            ao inves da dica ser um texto a dica é se você acertou a letra e sua posição.</h3>
+            <br>
+            <h3>Para jogar basta começar a escrever a palavra que você acha que é a correta.</h3>
+            <div class="row">
+                <div class="coluna">
+                    <img src="https://th.bing.com/th/id/R.6f71da66ec5832ac90245340e7ef63b9?rik=z5pDtm2OfCQ0fQ&pid=ImgRaw&r=0" alt="simboloUFRN" style=width:100 height="60">
+                </div>
+                <div class="coluna">
+                    <img src="https://th.bing.com/th/id/R.8e2f8b3508e5993d6af6c715a1ffb244?rik=gfIa5Bi5F6moLA&pid=ImgRaw&r=0" alt="simboloUFRN" style=width:100 height="60">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="modal-credito" class="modal-container">
+        <div class="modal">
+            <button class="fechar">x</button>
+            <h1> Créditos</h1>
+            <p>Orivaldo Vieira de Santana Júnior.</p>
+            <p>Função: Educador</p>
+            <br>
+            <h2>Doutor e mestre pelo Centro de Informática da UFPE. Graduado em Ciência da Computação pela Universidade Federal da
+            Bahia. Professor Adjunto da ECT/UFRN e Professor do Programa de Pós-graduação em Ciência, Tecnologia e Inovação (PPgCTI)
+            . Tem experiência na área de Ciência da Computação, com ênfase em Sistemas de Computação, atuando principalmente nos
+            seguintes temas: Aprendizagem de Máquina, Ciência de Dados Educacionais, Robótica Educacional e Indústria 4.0</h2>
+            <br>
+            <p>Guilherme Andrade de Avila.</p>
+            <p>Função: Programador.</p>
+            <p>Estudante de Engenharia Biomédica na UFRN</p>
+            <br>
+            <div class="row">
+                <div class="coluna">
+                    <img src="https://th.bing.com/th/id/R.6f71da66ec5832ac90245340e7ef63b9?rik=z5pDtm2OfCQ0fQ&pid=ImgRaw&r=0"
+                        alt="simboloUFRN" style=width:100 height="60">
+                </div>
+                <div class="coluna">
+                    <img src="https://th.bing.com/th/id/R.8e2f8b3508e5993d6af6c715a1ffb244?rik=gfIa5Bi5F6moLA&pid=ImgRaw&r=0"
+                        alt="simboloUFRN" style=width:100 height="60">
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
